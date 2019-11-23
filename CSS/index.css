@@ -1,0 +1,127 @@
+.base {
+    --primary-color: #4E4777;
+    --complement-color: #707747;
+    --triada-color-2: #774E47;
+    --triada-color-3: #47774E;
+    --tinte-color-2: #7A7599;
+    --tinte-color-4: #A7A3BB;
+    --tinte-color-6: #D3D1DD;
+    --tono-color-4: #67637B;
+    --sombra-color-4: #27243B;
+    --sombra-color-5: #1D1B2D;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F3F6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+
+.base-nav{
+    background-color: #4E4777;
+    color: white;
+}
+
+
+.nav-menu{
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.nav-menu-item{
+    
+}
+
+header{
+    background-color: #D3D1DD;
+}
+.header-img{
+    height: 300;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.art70{
+    width: 70%;
+}
+
+.art30{
+    width: 30%;
+}
+
+.list-img{
+    max-width: 100%;
+}
+
+.medium-main{
+    background-color: #4E4777;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    
+}
+
+.underground-main{
+    
+}
+
+.bottom-main{
+    display: flex;
+    background-color: #1D1B2D;
+    height: 500px;
+    padding: 20px;
+}
+
+ .review-card{
+     width: 30%;
+     padding: 10;
+     color: #A7A3BB;
+ } 
+
+ .review-img{
+     width: 80%;
+     
+ }
+
+
+ .upper-footer{
+     display: flex;
+     background-color: #1D1B2D;
+     min-height: 200px;
+ }
+ .contact-me{
+     display: flex;
+     direction: column;
+     width: 50%;
+     
+ }
+
+ .lower-footer{
+     display: flex;
+     background-color:#707747 ;
+ }
