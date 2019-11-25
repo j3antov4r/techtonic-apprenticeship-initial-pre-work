@@ -52,6 +52,9 @@ span.skills{
 .text-complement{
     color: var(--complement-color);
 }
+.text-white{
+    color: white;
+}
 
 .rounded-box-primary{
     border-radius: 25px;
@@ -197,14 +200,6 @@ main {
      min-height: 200px;
      justify-content: center;
  }
- .contact-me{
-     display: flex;
-     direction: column;
-     width: 50%;
-     
- }
-
- 
 
  .cool-box{
      display: flex;
@@ -240,7 +235,6 @@ main {
 
 a.footer-link{
     display: inline;
-    color: white;
     text-align: center;
     text-decoration: none;
     font-size: 1.1em;
